@@ -7,7 +7,6 @@ public class FunctionParam{
 		System.out.println("before fun:x="+x +" p[0]="+p[0]);
 		fun(x,p);
 		System.out.println("after  fun:x="+x +" p[0]="+p[0]);
-		
 	}
 	public static void fun(int x,int[] p){
 		x = 100;
